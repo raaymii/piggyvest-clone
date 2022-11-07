@@ -1,0 +1,167 @@
+/* @import url(//db.onlinewebfonts.com/c/254e22acc9a3adcfe8330459cc54cabc?family=DM+Sans+Medium);
+@import url(//db.onlinewebfonts.com/c/d9d77150b3dda1eea88a7a8f979e7711?family=DM+Sans); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-size: 62.5%;
+  font-family: "DM Sans Medium";
+  padding: 1rem 6rem;
+}
+
+p {
+  font-family: "DM Sans";
+}
+/* NAVBAR COMPONENT */
+.navbar {
+  background-color: #fff;
+  padding: 0rem 4rem;
+  /* border-bottom: 1px solid #999; */
+  max-width: 100%;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.main-list > li {
+  list-style: none;
+}
+
+.main-list > li:nth-child(6) {
+  margin-right: auto;
+}
+
+.main-list > li:nth-child(7) {
+  position: relative;
+  right: -1.5rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-family: "DM Sans Medium";
+  border-radius: 13px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid rgb(142, 141, 141);
+  outline: none;
+}
+
+.main-list > li:last-child > button {
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+}
+
+/* HEADER COMPONENT */
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero {
+  max-width: 50%;
+  padding-right: 10rem;
+  margin-left: 4rem;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  display: inline-block;
+  font-family: "U8";
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.hero > p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.btn-cta {
+  background-color: #000;
+  color: #fff;
+  margin: 1.5rem 0;
+}
+
+.btn-playstore {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.btn-playstore > button {
+  font-size: 0.8rem;
+  padding: 0.7rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-playstore > button > ion-icon {
+  font-size: 1.2rem;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.rect {
+  position: absolute;
+  left: 3rem;
+  top: 0rem;
+  z-index: 1;
+}
+
+.header-image {
+  position: relative;
+  left: 0rem;
+  top: 2.3rem;
+  z-index: 2;
+  height: 30rem;
+}
+
+.cross {
+  position: relative;
+  top: -25.3rem;
+  right: 25.9rem;
+  display: inline-block;
+  z-index: 3;
+}
+
+.circle {
+  position: relative;
+  top: -1rem;
+  left: -22.8rem;
+  z-index: 3;
+}
+
+.myrent {
+  z-index: 5;
+  display: inline-block;
+  width: 12rem;
+}
+
+.investify {
+  z-index: 5;
+  width: 12rem;
+}
