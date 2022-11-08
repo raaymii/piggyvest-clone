@@ -1,4 +1,11 @@
 import React from "react";
+import rect from "../images/rect.png";
+import headerImg from "../images/headerImg.png";
+import circle from "../images/circle.svg";
+import cross from "../images/cross.svg";
+import innercircle from "../images/innercircle.svg";
+import myrent from "../images/card1.png";
+import investify from "../images/card2.png";
 
 export default function Hero() {
   return (
@@ -21,17 +28,13 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="../images/rect.png" alt="rect" className="rect" />
-          <img
-            src="../images/headerImg.png"
-            alt="Header Image"
-            className="header-image"
-          />
-          <img src="../images/circle.svg" alt="" className="circle" />
-          <img src="../images/cross.svg" alt="" className="cross" />
-          <img src="../images/innercircle.svg" alt="" className="innercircle" />
-          <img src="../images/card1.png" alt="" className="myrent" />
-          <img src="../images/card2.png" alt="" className="investify" />
+          <img src={rect} alt="rect" className="rect" />
+          <img src={headerImg} alt="Header Image" className="header-image" />
+          <img src={circle} alt="" className="circle" />
+          <img src={cross} alt="" className="cross" />
+          <img src={innercircle} alt="" className="innercircle" />
+          <img src={myrent} alt="" className="myrent" />
+          <img src={investify} alt="" className="investify" />
         </div>
       </header>
     </>
