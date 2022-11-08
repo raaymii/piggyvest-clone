@@ -21,17 +21,17 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="./images/rect.png" alt="rect" className="rect" />
+          <img src="../images/rect.png" alt="rect" className="rect" />
           <img
-            src="./images/headerImg.png"
+            src="../images/headerImg.png"
             alt="Header Image"
             className="header-image"
           />
-          <img src="./images/circle.svg" alt="" className="circle" />
-          <img src="./images/cross.svg" alt="" className="cross" />
-          <img src="./images/innercircle.svg" alt="" className="innercircle" />
-          <img src="./images/card1.png" alt="" className="myrent" />
-          <img src="./images/card2.png" alt="" className="investify" />
+          <img src="../images/circle.svg" alt="" className="circle" />
+          <img src="../images/cross.svg" alt="" className="cross" />
+          <img src="../images/innercircle.svg" alt="" className="innercircle" />
+          <img src="../images/card1.png" alt="" className="myrent" />
+          <img src="../images/card2.png" alt="" className="investify" />
         </div>
       </header>
     </>

@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav className="navbar">
         <ul className="main-list">
           <li>
-            <img src="./images/logo.svg" className="logo"></img>
+            <img src="../images/logo.svg" className="logo"></img>
           </li>
           <li>Save</li>
           <li>Invest</li>
@@ -19,6 +19,9 @@ export default function Navbar() {
           <li>
             <button>Create free account</button>
           </li>
+          <div className="mobile-nav">
+            <ion-icon name="menu"></ion-icon>
+          </div>
         </ul>
       </nav>
     </>
