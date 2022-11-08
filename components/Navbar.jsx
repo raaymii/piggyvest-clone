@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/logo.svg";
 
 export default function Navbar() {
   return (
@@ -6,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar">
         <ul className="main-list">
           <li>
-            <img src="../images/logo.svg" className="logo"></img>
+            <img src={logo} className="logo"></img>
           </li>
           <li>Save</li>
           <li>Invest</li>
