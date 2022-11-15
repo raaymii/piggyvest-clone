@@ -27,9 +27,13 @@ h6 {
   font-size: 1.2rem;
 }
 p {
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
 }
 
 section {
   padding: 1rem 6rem;
+}
+
+.font-link {
+  font-family: "DM Sans Medium" !important;
 }
