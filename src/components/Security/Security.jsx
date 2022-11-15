@@ -1,5 +1,6 @@
 import React from "react";
 import securitylogo from "../../assets/images/png/security.png";
+import "../Security/Security.scss";
 
 export default function Security() {
   return (
