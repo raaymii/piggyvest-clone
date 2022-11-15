@@ -1,0 +1,25 @@
+.section-customers {
+  height: 80vh;
+  color: black;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  .animation-testimonials {
+    width: 35%;
+  }
+  .customers {
+    width: 45%;
+    padding: 9rem 5rem 3rem 1rem;
+    h3 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  }
+}
