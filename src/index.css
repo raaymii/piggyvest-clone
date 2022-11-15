@@ -1,6 +1,6 @@
 @font-face {
   font-family: "U8";
-  src: url(../src/font/U8-Regular/@font-face/7017698b5c5a2cc397cd3b0c0984d76f.ttf);
+  src: url(../src/font/U8-Regular/U8-Regular.ttf);
 }
 
 * {
@@ -23,7 +23,7 @@ h2,
 h3,
 h4,
 h6 {
-  font-family: "U8-Regular";
+  font-family: "U8";
 }
 
 h2 {
