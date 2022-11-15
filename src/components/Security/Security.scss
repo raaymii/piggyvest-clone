@@ -1,0 +1,43 @@
+/* SECTION SECURITY */
+.section-security {
+  height: 50vh;
+  position: relative;
+  max-width: 100%;
+  display: block;
+  .security-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    padding: 6rem 2rem 0rem 2rem;
+    margin: auto;
+    .securitylogo {
+      img {
+        width: 7rem;
+      }
+    }
+
+    .security-content {
+      // display: inline-block;
+      h2 {
+        font-size: 2.5rem;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 2;
+      }
+      a {
+        display: inline-block;
+        margin-top: 1rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
