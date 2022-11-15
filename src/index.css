@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "U8";
+  src: url(../src/font/U8-Regular/@font-face/7017698b5c5a2cc397cd3b0c0984d76f.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +12,18 @@
 body {
   background-color: #fff;
   font-size: 62.5%;
-  font-family: "DM Sans Medium" !important;
+  font-family: "DM Sans", sans-serif;
   color: #353535;
   padding-top: 1rem;
+  font-weight: 400;
 }
 
 h1,
 h2,
 h3,
-h4 {
-  font-family: "U8" !important;
+h4,
+h6 {
+  font-family: "U8-Regular";
 }
 
 h2 {
@@ -26,14 +33,7 @@ h2 {
 h6 {
   font-size: 1.2rem;
 }
-p {
-  font-family: "DM Sans", sans-serif;
-}
 
 section {
   padding: 1rem 6rem;
-}
-
-.font-link {
-  font-family: "DM Sans Medium" !important;
 }
