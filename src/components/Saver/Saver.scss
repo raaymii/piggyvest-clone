@@ -1,0 +1,42 @@
+.section-saver {
+  background-color: #0d60d8;
+  height: 60vh;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: white;
+  .saver {
+    padding: 6rem 10rem;
+    width: 50%;
+    h2 {
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  }
+  .saver-image {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    right: -7rem;
+    // text-align: right;
+    img {
+      height: 60vh;
+      clip-path: inset(0px 110px 0px 80px);
+      width: 100%;
+      display: inline-block;
+
+      // width: auto;
+    }
+  }
+}
