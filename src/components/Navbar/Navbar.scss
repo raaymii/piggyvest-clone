@@ -1,33 +1,32 @@
 /* NAVBAR COMPONENT */
 .navbar {
   background-color: #fff;
-  padding: 0rem 4rem;
-  /* border-bottom: 1px solid #999; */
+  padding: 0rem 10rem;
   max-width: 100%;
-}
-
-.main-list {
-  display: flex;
-  flex-direction: row;
-  gap: 2.5rem;
-  align-items: center;
-  font-size: 1.1rem;
-}
-
-.main-list > li {
-  list-style: none;
-}
-
-.main-list > li:nth-child(6) {
-  margin-right: auto;
-}
-
-.main-list > li:nth-child(7) {
-  position: relative;
-  right: -1.5rem;
-}
-.mobile-nav {
-  display: none;
+  .main-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+    font-size: 1.1rem;
+    li {
+      list-style: none;
+      .logo {
+        display: inline-block;
+        position: relative;
+      }
+    }
+    li:nth-child(6) {
+      margin-right: auto;
+    }
+    li:nth-child(7) {
+      position: relative;
+      right: -1.5rem;
+    }
+    .mobile-nav {
+      display: none;
+    }
+  }
 }
 
 button {
@@ -45,11 +44,6 @@ button {
 .main-list > li:nth-child(8) > button {
   background-color: #000;
   color: #fff;
-}
-
-.logo {
-  display: inline-block;
-  position: relative;
 }
 
 @media screen and (max-width: 1180px) {
@@ -100,51 +94,4 @@ button {
     /* margin-left: auto; */
     position: relative;
   }
-}
-
-/* SECTION SECURITY */
-.section-security {
-  height: 50vh;
-  position: relative;
-  max-width: 100%;
-  display: block;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.security-container {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: center;
-  /* padding: 1rem 1rem; */
-  align-items: center;
-  position: relative;
-  width: 70%;
-  padding: 15rem 2rem 8rem 2rem;
-
-  /* text-align: left; */
-  margin: auto;
-}
-.securitylogo > img {
-  width: 7rem;
-}
-
-.security-content > h2 {
-  font-size: 2.5rem;
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
-
-.security-content > p {
-  font-size: 1rem;
-  line-height: 2;
-}
-
-.security-content > a {
-  display: inline-block;
-  margin-top: 1rem;
-  text-decoration: none;
-  font-size: 1.1rem;
-  cursor: pointer;
 }
