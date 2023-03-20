@@ -26,7 +26,7 @@ export default function Savings() {
               Build a dedicated savings faster on your terms automatically or
               manually.
             </p>
-            <a href="#">
+            <a href="#" className="savings-options-a">
               <img src={piggybank} alt="" />
               Piggybank
             </a>
@@ -37,9 +37,9 @@ export default function Savings() {
             <h3>Fixed Savings</h3>
             <p>
               Lock money away for a fixed duration with no access to it until
-              maturity. It’s like having a custom fixed deposit.
+              maturity. It's like having a custom fixed deposit.
             </p>
-            <a href="#">
+            <a href="#" className="savings-options-a">
               <img src={safelockarrow} alt="" />
               Safelock
             </a>
@@ -52,7 +52,7 @@ export default function Savings() {
               Build a dedicated savings faster on your terms automatically or
               manually.
             </p>
-            <a href="#">
+            <a href="#" className="savings-options-a">
               <img src={targetarrow} alt="" />
               Target Savings
             </a>
@@ -65,7 +65,7 @@ export default function Savings() {
               Build a dedicated savings faster on your terms automatically or
               manually.
             </p>
-            <a href="#">
+            <a href="#" className="savings-options-a">
               <img src={flexarrow} alt="" />
               Flex Naira
             </a>

@@ -14,7 +14,8 @@ body {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
   color: #353535;
-  padding-top: 1rem;
+  padding: 0;
+  margin: 0;
   font-weight: 400;
 }
 

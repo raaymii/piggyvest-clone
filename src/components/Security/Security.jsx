@@ -16,7 +16,9 @@ export default function Security() {
             secured by 256 bits SSL security encryption to ensure that your
             information is completely protected from fraud.
           </p>
-          <a href="#">Learn more &#62;</a>
+          <a href="#" className="security-link">
+            Learn more &#62;
+          </a>
         </div>
       </div>
     </section>

@@ -1,19 +1,22 @@
+@import "../../styles/mediaQueries.scss";
+
 /* SECTION SECURITY */
 .section-security {
   height: 50vh;
-  position: relative;
   max-width: 100%;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .security-container {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    justify-content: center;
     align-items: center;
     position: relative;
     width: 70%;
-    padding: 6rem 2rem 0rem 2rem;
-    margin: auto;
+    @include screen-size(for-desktop-only) {
+      width: 85%;
+    }
     .securitylogo {
       img {
         width: 7rem;
@@ -31,12 +34,17 @@
         font-size: 1rem;
         line-height: 2;
       }
-      a {
+      .security-link {
         display: inline-block;
         margin-top: 1rem;
         text-decoration: none;
         font-size: 1.1rem;
+        color: #000;
+      }
+      .security-link:hover {
         cursor: pointer;
+        border-bottom: 9px solid #6096e181;
+        transition: all 0.4s linear;
       }
     }
   }

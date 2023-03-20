@@ -1,42 +1,72 @@
 .section-saver {
   background-color: #0d60d8;
-  height: 60vh;
+  height: 70vh;
   position: relative;
   max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   overflow: hidden;
   margin: 0;
   padding: 0;
   color: white;
-  .saver {
-    padding: 6rem 10rem;
-    width: 50%;
-    h2 {
-      font-size: 4rem;
+  .saver-month {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    // width: 100%;
+    .saver {
+      padding: 4rem 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        display: inline-block;
+        margin-top: 1rem;
+      }
+      a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        margin-top: 2rem;
+        width: fit-content;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        // margin-right: auto;
+        img {
+          height: 2rem;
+          // margin-right: auto;
+        }
+      }
+      .saver-link:hover {
+        border-bottom: 10px solid #8cb5ee82;
+        transition: all 0.3s linear;
+      }
     }
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-  }
-  .saver-image {
-    width: 50%;
-    height: 100%;
-    margin: 0;
-    position: relative;
-    right: -7rem;
-    // text-align: right;
-    img {
-      height: 60vh;
-      clip-path: inset(0px 110px 0px 80px);
-      width: 100%;
-      display: inline-block;
+    .saver-image {
+      width: 50%;
+      height: 100%;
+      margin-left: 0;
+      padding: 0;
+      position: relative;
+      // right: -7rem;
+      // text-align: right;
+      img {
+        height: 70vh;
+        // clip-path: inset(0px 110px 0px 0px);
+        width: 100%;
+        // margin-right: auto;
+        object-fit: cover;
+        // display: inline-block;
 
-      // width: auto;
+        // width: auto;
+      }
     }
   }
 }

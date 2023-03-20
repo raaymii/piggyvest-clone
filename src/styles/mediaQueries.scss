@@ -1,0 +1,56 @@
+@mixin screen-size($size) {
+  @if $size == for-smartphones-only {
+    @media (max-width: 450px) {
+      @content;
+    }
+  } @else if $size == for-tablet-up {
+    @media (min-width: 500px) and (max-width: 950px) {
+      @content;
+    }
+  } @else if $size == for-desktop-down {
+    @media (min-width: 951px) and (max-width: 1100px) {
+    }
+  } @else if $size == for-desktop-only {
+    @media (max-width: 1300px) {
+      @content;
+    }
+  } @else if $size == for-desktop-up {
+    @media (min-width: 1301px) and (max-width: 1700px) {
+      @content;
+    }
+  } @else if $size == for-larger-desktops-up {
+    @media (min-width: 1701px) {
+      @content;
+    }
+  }
+}
+
+// @mixin for-smartphones-only {
+//   @media (max-width: 450px) {
+//     @content;
+//   }
+// }
+
+// @mixin for-tablets-up {
+//   @media (min-width: 500px) and (max-width: 850px) {
+//     @content;
+//   }
+// }
+
+// @mixin for-desktop-only {
+//   @media (max-width: 1300px) {
+//     @content;
+//   }
+// }
+
+// @mixin for-desktop-up {
+//   @media (min-width: 1301px) and (max-width: 1700px) {
+//     @content;
+//   }
+// }
+
+// @mixin for-larger-desktops-up {
+//   @media (min-width: 1701px) {
+//     @content;
+//   }
+// }

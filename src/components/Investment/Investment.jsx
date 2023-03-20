@@ -23,7 +23,9 @@ export default function Investment() {
               Invest securely and confidently on the go. Grow your money
               confidently by investing in pre-vetted investment opportunities.
             </p>
-            <a href="#">Learn more about Investments &#62;</a>
+            <a href="#" className="invest-link">
+              Learn more about Investments &#62;
+            </a>
           </div>
         </div>
       </section>
